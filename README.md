@@ -1,9 +1,14 @@
 ## Hangman-Jquery
-Proyecto de lógica con Jquery. 
+Logic project with Jquery.
 
-![Game](/image/start.jpg);
-![Win](/image/Lost-game.jpg);
-![Lost](/image/win-game.jpg);
+Build: 
+1. JQUERY
+2. WEBPACK
+3. HTML / CSS
+
+![Game](image/start.png);
+![Win](image/Lost-game.png);
+![Lost](image/win-game.png);
 
 
 

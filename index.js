@@ -36,10 +36,8 @@ $(document).ready(function() {
         if (goodGuesses.length === randomWordArray.length) {
           $("#container").hide();
           $("button").prop("disabled", "true");
-          $(".category").text("¡¡¡¡¡¡YOU WINNNNNN!!!!!!!!");
-          $(".category").append(
-            "<br><button enabled class='play-again'>Volver a Jugar</button>"
-          );
+          $(".category").text("¡You Win!");
+          $(".category").append( "<br><button enabled class='play-again'>Play Again</button>");
         }
       }
     });
